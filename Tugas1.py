@@ -1,6 +1,6 @@
 #Enrico Frans Ganya
 #210322607247
-
+streamlit run Tugas1.py
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
