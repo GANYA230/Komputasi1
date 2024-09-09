@@ -1,10 +1,11 @@
 #Enrico Frans Ganya
 #210322607247
-streamlit run Tugas1.py
+
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
- 
+
+streamlit run Tugas1.py
 # Header
 st.header('Nugroho :sparkles:')
 st.subheader('Plot')
