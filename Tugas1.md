@@ -1,2 +1,2 @@
 # Enrico Frans Ganya
-## Universitas Neggeri Malang
+## Universitas Negeri Malang
