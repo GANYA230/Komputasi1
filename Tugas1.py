@@ -4,7 +4,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-
+st.run Tugas1.py
 
 # Header
 st.header('Nugroho :sparkles:')
@@ -62,4 +62,4 @@ with col2:
  
 st.caption('Copyright © Nugroho Adi Pramono 2023')
 
-st run Tugas1.py
+
