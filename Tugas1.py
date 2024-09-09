@@ -4,10 +4,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-st.run Tugas1.py
 
 # Header
-st.header('Nugroho :sparkles:')
+st.header('Enrico Frans Ganya :sparkles:')
 st.subheader('Plot')
  
 x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
