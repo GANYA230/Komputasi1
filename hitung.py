@@ -9,7 +9,7 @@ if(sx=='C'):
   if(fx=='C'):
     x = y
   elif(fx=='R'):
-      x*4/5 = y
+      x*4/5 == y
 
 st.write(x, ' ', sx, "=", y, fx)
 
