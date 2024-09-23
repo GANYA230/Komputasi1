@@ -7,7 +7,7 @@ y = 0
 
 if(sx=='C'):
   if(fx=='C'):
-    x = y
+    y = x
   elif(fx=='R'):
     y = x*4/5 
   elif(fx=='F'):
@@ -18,7 +18,7 @@ elif(sx=='R'):
   if(fx=='C'):
     y = x*5/4
   elif(fx=='R'):
-    x = y 
+    y = x 
   elif(fx=='F'):
     y = (x+32)*4/9
   elif(fx=='K'):
@@ -29,7 +29,7 @@ elif(sx=='F'):
   elif(fx=='R'):
     x = (x-32)*4/9
   elif(fx=='F'):
-    x = y
+    y = x
   elif(fx=='K'):
     y = ((x-32)*5/9)+273
 elif(sx=='K'):
@@ -40,7 +40,7 @@ elif(sx=='K'):
   elif(fx=='F'):
     x = (x-273)*9/5+32
   elif(fx=='K'):
-    x = y
+    y = x
 
 st.write(x, ' ', sx, "=", y, fx)
 
