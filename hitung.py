@@ -1,8 +1,8 @@
 import streamlit as st
 
 x = st.number_input("Masukkan angka")
-sx = st.text_input("satuan awal", "C")
-fx = st.text_input("satuan akhir", "R")
+sx = st.selectbox("Satuan", ("C", "R", "F", "K"), key ='sx')
+fx = st.selectbox("Dikonversi ke", ("C", "R", "F", "K"), key ='fx')
 y = 0
 
 if(sx=='C'):
