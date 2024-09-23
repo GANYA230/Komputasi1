@@ -7,9 +7,9 @@ y = 0
 
 if(sx=='C'):
   if(fx=='C'):
-    print(x)
+    x = y
   elif(fx=='R'):
-      print(x*4/5)
+      x*4/5 = y
 
 st.write(x, ' ', sx, "=", y, fx)
 
