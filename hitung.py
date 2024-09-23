@@ -1,4 +1,6 @@
 import streamlit as st
 
-number = st.number_input("Insert a number")
-st.write("Anda memasukkan", x)
+x = st.number_input("Masukkan angka")
+sx = st.text_input("satuan", "C")
+st.write("Anda memasukkan", x, ' ',sx)
+
