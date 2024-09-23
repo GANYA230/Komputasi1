@@ -11,6 +11,5 @@ if(sx=='C'):
   elif(fx=='R'):
       print(x*4/5)
 
-konversi()
 st.write(x, ' ', sx, "=", y, fx)
 
